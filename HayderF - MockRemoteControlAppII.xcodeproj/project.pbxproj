@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03A540E23FF6AFC001FEA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A540D23FF6AFC001FEA88 /* AppDelegate.swift */; };
+		D03A541023FF6AFC001FEA88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A540F23FF6AFC001FEA88 /* SceneDelegate.swift */; };
+		D03A541223FF6AFC001FEA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A541123FF6AFC001FEA88 /* ViewController.swift */; };
+		D03A541523FF6AFC001FEA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03A541323FF6AFC001FEA88 /* Main.storyboard */; };
+		D03A541723FF6AFF001FEA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03A541623FF6AFF001FEA88 /* Assets.xcassets */; };
+		D03A541A23FF6AFF001FEA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03A541823FF6AFF001FEA88 /* LaunchScreen.storyboard */; };
+		D08843E3240E03EE000467F8 /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08843E2240E03EE000467F8 /* DVRViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D03A540A23FF6AFC001FEA88 /* HayderF - MockRemoteControlAppII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HayderF - MockRemoteControlAppII.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03A540D23FF6AFC001FEA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03A540F23FF6AFC001FEA88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D03A541123FF6AFC001FEA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D03A541423FF6AFC001FEA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03A541623FF6AFF001FEA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03A541923FF6AFF001FEA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03A541B23FF6AFF001FEA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08843E2240E03EE000467F8 /* DVRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVRViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03A540723FF6AFC001FEA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03A540123FF6AFC001FEA88 = {
+			isa = PBXGroup;
+			children = (
+				D03A540C23FF6AFC001FEA88 /* HayderF - MockRemoteControlApp */,
+				D03A540B23FF6AFC001FEA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03A540B23FF6AFC001FEA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03A540A23FF6AFC001FEA88 /* HayderF - MockRemoteControlAppII.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03A540C23FF6AFC001FEA88 /* HayderF - MockRemoteControlApp */ = {
+			isa = PBXGroup;
+			children = (
+				D03A540D23FF6AFC001FEA88 /* AppDelegate.swift */,
+				D03A540F23FF6AFC001FEA88 /* SceneDelegate.swift */,
+				D03A541123FF6AFC001FEA88 /* ViewController.swift */,
+				D03A541323FF6AFC001FEA88 /* Main.storyboard */,
+				D08843E2240E03EE000467F8 /* DVRViewController.swift */,
+				D03A541623FF6AFF001FEA88 /* Assets.xcassets */,
+				D03A541823FF6AFF001FEA88 /* LaunchScreen.storyboard */,
+				D03A541B23FF6AFF001FEA88 /* Info.plist */,
+			);
+			path = "HayderF - MockRemoteControlApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03A540923FF6AFC001FEA88 /* HayderF - MockRemoteControlAppII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03A541E23FF6AFF001FEA88 /* Build configuration list for PBXNativeTarget "HayderF - MockRemoteControlAppII" */;
+			buildPhases = (
+				D03A540623FF6AFC001FEA88 /* Sources */,
+				D03A540723FF6AFC001FEA88 /* Frameworks */,
+				D03A540823FF6AFC001FEA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HayderF - MockRemoteControlAppII";
+			productName = "HayderF - MockRemoteControlApp";
+			productReference = D03A540A23FF6AFC001FEA88 /* HayderF - MockRemoteControlAppII.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03A540223FF6AFC001FEA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "DePaul University";
+				TargetAttributes = {
+					D03A540923FF6AFC001FEA88 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = D03A540523FF6AFC001FEA88 /* Build configuration list for PBXProject "HayderF - MockRemoteControlAppII" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03A540123FF6AFC001FEA88;
+			productRefGroup = D03A540B23FF6AFC001FEA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03A540923FF6AFC001FEA88 /* HayderF - MockRemoteControlAppII */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03A540823FF6AFC001FEA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A541A23FF6AFF001FEA88 /* LaunchScreen.storyboard in Resources */,
+				D03A541723FF6AFF001FEA88 /* Assets.xcassets in Resources */,
+				D03A541523FF6AFC001FEA88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03A540623FF6AFC001FEA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A541223FF6AFC001FEA88 /* ViewController.swift in Sources */,
+				D08843E3240E03EE000467F8 /* DVRViewController.swift in Sources */,
+				D03A540E23FF6AFC001FEA88 /* AppDelegate.swift in Sources */,
+				D03A541023FF6AFC001FEA88 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03A541323FF6AFC001FEA88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03A541423FF6AFC001FEA88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D03A541823FF6AFF001FEA88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03A541923FF6AFF001FEA88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03A541C23FF6AFF001FEA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D03A541D23FF6AFF001FEA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03A541F23FF6AFF001FEA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HayderF - MockRemoteControlApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DPU.HayderF---MockRemoteControlApp";
+				PRODUCT_NAME = "HayderF - MockRemoteControlAppII";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03A542023FF6AFF001FEA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HayderF - MockRemoteControlApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DPU.HayderF---MockRemoteControlApp";
+				PRODUCT_NAME = "HayderF - MockRemoteControlAppII";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03A540523FF6AFC001FEA88 /* Build configuration list for PBXProject "HayderF - MockRemoteControlAppII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03A541C23FF6AFF001FEA88 /* Debug */,
+				D03A541D23FF6AFF001FEA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03A541E23FF6AFF001FEA88 /* Build configuration list for PBXNativeTarget "HayderF - MockRemoteControlAppII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03A541F23FF6AFF001FEA88 /* Debug */,
+				D03A542023FF6AFF001FEA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03A540223FF6AFC001FEA88 /* Project object */;
+}
